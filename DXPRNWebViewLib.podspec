@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DXPRNWebViewLib"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "DXP React Native WebView Lib."
 
   # This description is used to generate tags and improve search results.
@@ -127,7 +127,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'Masonry'
   spec.dependency 'DXPNetWorkingManagerLib'
   spec.dependency 'DXPAnalyticsLib'
-
+  spec.static_framework = true
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
