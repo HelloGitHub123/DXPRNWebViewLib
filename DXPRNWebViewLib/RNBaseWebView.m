@@ -12,7 +12,6 @@
 #import <DXPToolsLib/HJTool.h>
 #import <MJRefresh/MJRefresh.h>
 #import <Masonry/Masonry.h>
-#import "HJ_JSHandler.h"
 
 #define SCREEN_WIDTH             [UIScreen mainScreen].bounds.size.width
 #define Is_iPhoneX_Or_More ([UIScreen mainScreen].bounds.size.height >= 812)
